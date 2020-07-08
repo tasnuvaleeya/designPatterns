@@ -2,7 +2,11 @@ package com.designpatterns;
 
 public class Main {
     public static void main(String[] args) {
-        var textBox = new TextBox();
-        textBox.enable();
+        drawUIControl(new CheckBox());
+    }
+
+    public static void drawUIControl(UIControl control) {
+        control.draw();
+
     }
 }
