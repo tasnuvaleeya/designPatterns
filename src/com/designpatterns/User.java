@@ -6,7 +6,7 @@ public class User {
     public String name;
 
     // Constructor
-    public User(String name){
+    public User(String name, int age){
         this.name = name;
     }
 
