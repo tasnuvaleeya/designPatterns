@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-public class mailService {
+public class MailService {
 
     public void sendEmail() {
         connect(1);
